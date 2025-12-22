@@ -49,6 +49,7 @@ export const HeroSection = () => {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up stagger-4">
+            <a href="https://forms.office.com/r/s3gfYUAEcs?origin=lprLink">
             <Button
               size="lg"
               className="bg-gold hover:bg-gold-dark text-primary font-semibold px-8 py-6 text-lg group"
@@ -56,13 +57,14 @@ export const HeroSection = () => {
               Apply for Admission
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
+            </a>
             <Button
               size="lg"
               variant="outline"
               className="border-primary-foreground/50 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20 px-8 py-6 text-lg backdrop-blur-sm"
             >
               <Play className="mr-2 w-5 h-5" />
-              Watch Campus Tour
+              Watch School Activities
             </Button>
           </div>
 
