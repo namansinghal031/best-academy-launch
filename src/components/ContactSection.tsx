@@ -51,8 +51,8 @@ export const ContactSection = () => {
                   <h3 className="font-display text-lg font-semibold text-foreground mb-1">
                     Phone
                   </h3>
-                  <p className="text-muted-foreground">+91-98765-43210</p>
-                  <p className="text-muted-foreground">+91-98765-43211</p>
+                  <p className="text-muted-foreground">+91-90586-58758</p>
+                  <p className="text-muted-foreground">+91-89239-56009</p>
                 </div>
               </div>
             </div>
@@ -66,8 +66,8 @@ export const ContactSection = () => {
                   <h3 className="font-display text-lg font-semibold text-foreground mb-1">
                     Email
                   </h3>
-                  <p className="text-muted-foreground">info@bestacademy.edu</p>
-                  <p className="text-muted-foreground">admissions@bestacademy.edu</p>
+                  <p className="text-muted-foreground">bestacademy@gmail.com</p>
+                  {/* <p className="text-muted-foreground">admissions@bestacademy.edu</p> */}
                 </div>
               </div>
             </div>
@@ -82,8 +82,8 @@ export const ContactSection = () => {
                     Address
                   </h3>
                   <p className="text-muted-foreground">
-                    123 Education Lane, Knowledge Park<br />
-                    New Delhi, India - 110001
+                    Main Market, Behsuma<br />
+                    Meerut, India - 250404
                   </p>
                 </div>
               </div>
@@ -98,8 +98,8 @@ export const ContactSection = () => {
                   <h3 className="font-display text-lg font-semibold text-foreground mb-1">
                     Office Hours
                   </h3>
-                  <p className="text-muted-foreground">Monday - Friday: 8:00 AM - 4:00 PM</p>
-                  <p className="text-muted-foreground">Saturday: 9:00 AM - 1:00 PM</p>
+                  <p className="text-muted-foreground">Monday - Friday: 8:00 AM - 1:00 PM</p>
+                  <p className="text-muted-foreground">Saturday: 9:00 AM - 2:00 PM</p>
                 </div>
               </div>
             </div>
@@ -160,7 +160,7 @@ export const ContactSection = () => {
             {/* Google Map */}
             <div className="rounded-2xl overflow-hidden border border-border h-64">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.5195376482893!2d77.20654931508239!3d28.63282898241823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin"
+                src="https://maps.app.goo.gl/RFHvU6yRgRsKxzer9"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
