@@ -69,9 +69,9 @@ export const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 animate-fade-up stagger-5">
             {[
-              { value: '30+', label: 'Years of Excellence' },
-              { value: '5000+', label: 'Students Enrolled' },
-              { value: '200+', label: 'Expert Faculty' },
+              { value: '14+', label: 'Years of Excellence' },
+              { value: '1000+', label: 'Students Enrolled' },
+              { value: '50+', label: 'Expert Faculty' },
               { value: '100%', label: 'Success Rate' },
             ].map((stat, index) => (
               <div key={index} className="text-center">
