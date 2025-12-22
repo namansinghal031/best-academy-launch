@@ -160,7 +160,7 @@ export const ContactSection = () => {
             {/* Google Map */}
             <div className="rounded-2xl overflow-hidden border border-border h-64">
               <iframe
-                src="https://maps.app.goo.gl/RFHvU6yRgRsKxzer9"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3482.7800038177093!2d77.967101!3d29.2006032!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390b8afec1645eb5%3A0x33f010d44087979b!2sBest%20Academy%20For%20Radiant%20Future!5e0!3m2!1sen!2sin!4v1766422276228!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

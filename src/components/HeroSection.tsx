@@ -44,7 +44,7 @@ export const HeroSection = () => {
 
           {/* Description */}
           <p className="text-primary-foreground/70 mb-10 animate-fade-up stagger-3 max-w-xl mx-auto">
-            Nurturing young minds with excellence in academics, sports, and character development since 1995.
+            Nurturing young minds with excellence in academics, sports, and character development.
           </p>
 
           {/* CTAs */}
