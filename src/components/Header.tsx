@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, GraduationCap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import logo from '@/assets/logo.jpeg';
 
 const navItems = [
   { name: 'Home', href: '#home' },
@@ -36,9 +37,11 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <div className="w-10 h-10 md:w-12 md:h-12 bg-gold-gradient rounded-lg flex items-center justify-center">
-              <GraduationCap className="w-6 h-6 md:w-7 md:h-7 text-primary" />
-            </div>
+            <img 
+              src={logo} 
+              alt="BEST ACADEMY Logo" 
+              className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover"
+            />
             <div>
               <h1 className={`font-display font-bold text-lg md:text-xl ${isScrolled ? 'text-primary' : 'text-primary-foreground'}`}>
                 BEST ACADEMY
