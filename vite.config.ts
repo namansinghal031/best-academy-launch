@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/",
+  base: "./",   // 🔥 THIS IS THE FIX
   plugins: [react()],
   resolve: {
     alias: {
